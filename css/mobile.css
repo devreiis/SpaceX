@@ -1,0 +1,28 @@
+/* Media Queries */
+
+@media (max-width: 960px) {
+    /* Hide desktop menu */
+    .desktop-main-menu {
+      display: none;
+    }
+  
+    /* Show main mobile items */
+    .mobile-only {
+      display: block;
+    }
+  
+    .section-inner-center h3 {
+      font-size: 2.4rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .section-inner {
+      bottom: 75px;
+      left: 20px;
+    }
+  
+    .section-inner h2 {
+      font-size: 2.2rem;
+    }
+  }  
